@@ -17,3 +17,4 @@ Includes my katas(exercises) from **["CodeWars"](https://www.codewars.com/)**. T
 6. **["mk006-order.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk006-order.ipynb)**: Sorts a given string. Each word in the string will contain a single number. This number is the position the word should have in the result. The words in the input String will only contain valid consecutive numbers. If the input string is empty, returns an empty string.  
     
    Note: Numbers can be from 1 to 9. So 1 will be the first word (not 0).
+7. **["mk007-shortest_word_length.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk007-shortest_word_length.ipynb)**: Given a string of words, returns the length of the shortest word(s). String will never be empty and you do not need to account for different data types.
