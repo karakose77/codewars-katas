@@ -22,4 +22,4 @@ Includes my katas(exercises) from **["CodeWars"](https://www.codewars.com/)**. T
    Returns the words of the initial song that Polycarpus used to make a dubsteb remix. Separates the words with a space.
 9. **["mk009-at_most_n_copies.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk009-at_most_n_copies.ipynb0)**: Given a list lst and a number N, create a new list that contains each number of list at most N times without reordering. For example if N = 2, and the input is [1,2,3,1,2,1,2,3], you take [1,2,3,1,2], drop the next [1,2] since this would lead to 1 and 2 being in the result 3 times, and then take 3, which leads to [1,2,3,1,2,3].  
     `max_repeat ([1,1,1,1],2) => [1,1]`  
-`max_repeat ([20,37,20,21],1) => [20,37,21]`
+    `max_repeat ([20,37,20,21],1) => [20,37,21]`
