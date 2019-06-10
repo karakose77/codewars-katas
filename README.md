@@ -38,3 +38,9 @@ Includes my katas(exercises) from **["CodeWars"](https://www.codewars.com/)**. T
     If there are no numbers of this kind in the range [a, b] the function should output an empty list:  
 
     `number_isequal_sum_digit_power(90, 100) == []`
+13. **["mk013-human_readible_time.py"](https://github.com/karakose77/codewars-katas/blob/master/mk013-human_readible_time.py)**: Write a function, which takes a non-negative integer (seconds) as input and returns the time in a human-readable format (HH:MM:SS)
+
+    * HH = hours, padded to 2 digits, range: 00 - 99  
+    * MM = minutes, padded to 2 digits, range: 00 - 59 
+    * SS = seconds, padded to 2 digits, range: 00 - 59
+    * The maximum time never exceeds 359999 (99:59:59)
