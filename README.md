@@ -38,13 +38,13 @@ Includes my katas(exercises) from **["CodeWars"](https://www.codewars.com/)**. T
     If there are no numbers of this kind in the range [a, b] the function should output an empty list:  
 
     `number_isequal_sum_digit_power(90, 100) == []`
-13. **["mk013-human_readible_time.py"](https://github.com/karakose77/codewars-katas/blob/master/mk013-human_readible_time.py)**: Write a function, which takes a non-negative integer (seconds) as input and returns the time in a human-readable format (HH:MM:SS)
+13. **["mk013-human_readible_time.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk013-human_readible_time.ipynb)**: Write a function, which takes a non-negative integer (seconds) as input and returns the time in a human-readable format (HH:MM:SS)
 
     * HH = hours, padded to 2 digits, range: 00 - 99  
     * MM = minutes, padded to 2 digits, range: 00 - 59 
     * SS = seconds, padded to 2 digits, range: 00 - 59
     * The maximum time never exceeds 359999 (99:59:59)
-14. **["mk014-first_non_repeating_letter.py"](https://github.com/karakose77/codewars-katas/blob/master/mk014-first_non_repeating_letter.py)**: Write a function named first_non_repeating_letter that takes a string input, and returns the first character that is not repeated anywhere in the string. For example, if given the input 'stress', the function should return 't', since the letter t only occurs once in the string, and occurs first in the string.
+14. **["mk014-first_non_repeating_letter.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk014-first_non_repeating_letter.ipynb)**: Write a function named first_non_repeating_letter that takes a string input, and returns the first character that is not repeated anywhere in the string. For example, if given the input 'stress', the function should return 't', since the letter t only occurs once in the string, and occurs first in the string.
 
     As an added challenge, upper- and lowercase letters are         considered the same character, but the function should return the correct case for the initial letter. For example, the input 'sTreSS' should return 'T'.
     
