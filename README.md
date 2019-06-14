@@ -15,11 +15,11 @@ Includes my katas(exercises) from **["CodeWars"](https://www.codewars.com/)**. T
 4. **["mk004-highest_and_lowest.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk004-highest_and_lowest.ipynb)**: Given a string of space separated numbers, returns the highest and lowest number. All numbers are valid Int32, no need to validate them. There will always be at least one number in the input string. Output string must be two numbers separated by a single space, and highest number is first.
 5. **["mk005-complementary_dna.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk005-complementary_dna.ipynb)**: Deoxyribonucleic acid (DNA) is a chemical found in the nucleus of cells and carries the "instructions" for the development and functioning of living organisms. In DNA strings, symbols "A" and "T" are complements of each other, as "C" and "G". DNA strand is never empty or there is no DNA at all. Given one side of the DNA as a string; returns the other complementary side. 
 6. **["mk006-sort_string.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk006-sort_string.ipynb)**: Sorts a given string. Each word in the string will contain a single number. This number is the position the word should have in the result. The words in the input String will only contain valid consecutive numbers. If the input string is empty, returns an empty string.     
-   Note: Numbers can be from 1 to 9. So 1 will be the first word (not 0).
+ Note: Numbers can be from 1 to 9. So 1 will be the first word (not 0).
 7. **["mk007-shortest_word_length.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk007-shortest_word_length.ipynb)**: Given a string of words, returns the length of the shortest word(s). String will never be empty and you do not need to account for different data types.
 8. **["mk008-decoder.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk008-decoder.ipynb)**: Polycarpus works as a DJ in the best Berland nightclub, and he often uses dubstep music in his performance. Recently, he has decided to take a couple of old songs and make dubstep remixes from them. Let's assume that a song consists of some number of words (that don't contain WUB). To make the dubstep remix of this song, Polycarpus inserts a certain number of words "WUB" before the first word of the song (the number may be zero), after the last word (the number may be zero), and between words (at least one between any pair of neighbouring words), and then the boy glues together all the words, including "WUB", in one string and plays the song at the club. For example, a song with words "I AM X" can transform into a dubstep remix as "WUBWUBIWUBAMWUBWUBX" and cannot transform into "WUBWUBIAMWUBX". Recently, Jonny has heard Polycarpus's new dubstep track, but since he isn't into modern music, he decided to find out what was the initial song that Polycarpus remixed. Help Jonny restore the original song.   
-   The input consists of a single non-empty string, consisting only of uppercase English letters, the string's length doesn't exceed 200 characters.   
-   Returns the words of the initial song that Polycarpus used to make a dubsteb remix. Separates the words with a space.
+ The input consists of a single non-empty string, consisting only of uppercase English letters, the string's length doesn't exceed 200 characters.
+ Returns the words of the initial song that Polycarpus used to make a dubsteb remix. Separates the words with a space.
 9. **["mk009-at_most_n_copies.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk009-at_most_n_copies.ipynb)**: Given a list lst and a number N, create a new list that contains each number of list at most N times without reordering. For example if N = 2, and the input is [1,2,3,1,2,1,2,3], you take [1,2,3,1,2], drop the next [1,2] since this would lead to 1 and 2 being in the result 3 times, and then take 3, which leads to [1,2,3,1,2,3].
 10. **["mk010-pile_of_cubes.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk010-pile_of_cubes.ipynb)**: Your task is to construct a building which will be a pile of n cubes. The cube at the bottom will have a volume of $n^3$, the cube above will have volume of $(n-1)^3$ and so on until the top which will have a volume of $1^3$. You are given the total volume m of the building. Given m can you find the number n of cubes you will have to build? The parameter of the function will be an integer m and you have to return the integer $n$ such as $n^3 + (n-1)^3 + ... + 1^3 = m$ if such a $n$ exists or $-1$ if there is no such n.
 11. **["mk011-weigth_of_numbers.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk011-weigth_of_numbers.ipynb)**: Given a string of number sort them according to their weight. For example 99 will have "weight" 18, 100 will have "weight" 1 so in the list 100 will come before 99.
@@ -46,31 +46,21 @@ Includes my katas(exercises) from **["CodeWars"](https://www.codewars.com/)**. T
     * The maximum time never exceeds 359999 (99:59:59)
 14. **["mk014-first_non_repeating_letter.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk014-first_non_repeating_letter.ipynb)**: Write a function named first_non_repeating_letter that takes a string input, and returns the first character that is not repeated anywhere in the string. For example, if given the input 'stress', the function should return 't', since the letter t only occurs once in the string, and occurs first in the string.
 
-    As an added challenge, upper- and lowercase letters are         considered the same character, but the function should return the correct case for the initial letter. For example, the input 'sTreSS' should return 'T'.
+    As an added challenge, upper- and lowercase letters are considered the same character, but the function should return the correct case for the initial letter. For example, the input 'sTreSS' should return 'T'.
     
     If a string contains all repeating characters, it should return an empty string ("") or None.
 
 15. **["mk015-is_perfect_power.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk015-is_perfect_power.ipynb)**: A perfect power is a classification of positive integers:
 
-    In mathematics, a perfect power is a positive integer that can     be expressed as an integer power of another positive integer.      More formally, n is a perfect power if there exist natural         numbers m > 1, and k > 1 such that mk = n.
+    In mathematics, a perfect power is a positive integer that can be expressed as an integer power of another positive integer. More formally, n is a perfect power if there exist natural numbers m > 1, and k > 1 such that mk = n.
     
-    Your task is to check whether a given integer is a
-    perfect power. If it is a perfect power, return a
-    pair m and k with mk = n as a proof. Otherwise return
-    Nothing, Nil, null, NULL, None or your language's
-    equivalent.
+    Your task is to check whether a given integer is a perfect power. If it is a perfect power, return a pair m and k with mk = n as a proof. Otherwise return Nothing, Nil, null, NULL, None or your language's equivalent.
     
-    Note: For a perfect power, there might be several
-    pairs. For example 81 = 3^4 = 9^2, so (3,4) and (9,2)
-    are valid solutions. However, the tests take care of
-    this, so if a number is a perfect power, return any
-    pair that proves it.
+    Note: For a perfect power, there might be several pairs. For example 81 = 3^4 = 9^2, so (3,4) and (9,2) are valid solutions. However, the tests take care of this, so if a number is a perfect power, return any pair that proves it.
     
 15. **["mk016-tic_tac_toe_solved.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk016-tic_tac_toe_solved.ipynb)**: If we were to set up a Tic-Tac-Toe game, we would want to know whether the board's current state is solved, wouldn't we? Our goal is to create a function that will check that for us!
 
-    Assume that the board comes in the form of a 3x3
-    array, where the value is 0 if a spot is empty, 1 if
-    it is an "X", or 2 if it is an "O", like so:
+    Assume that the board comes in the form of a 3x3 array, where the value is 0 if a spot is empty, 1 if it is an "X", or 2 if it is an "O", like so:
     ```
     [[0, 0, 1],
      [0, 1, 2],
@@ -84,3 +74,33 @@ Includes my katas(exercises) from **["CodeWars"](https://www.codewars.com/)**. T
     0 if it's a cat's game (i.e. a draw).
     ```
      You may assume that the board passed in is valid in the context of a game of Tic-Tac-Toe.
+
+16. **["mk017-letter_sort.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk017-letter_sort.ipynb)**: Given two strings s1 and s2, we want to visualize how different the two strings are. We will only take into account the lowercase letters (a to z). First let us count the frequency of each lowercase letters in s1 and s2.
+    ```
+    s1 = "A aaaa bb c"
+    s2 = "& aaa bbb c d"
+    s1 has 4 'a', 2 'b', 1 'c'
+    s2 has 3 'a', 3 'b', 1 'c', 1 'd'
+    ```
+    So the maximum for `'a'` in `s1` and `s2` is `4` from `s1`; the maximum for `'b'` is `3` from `s2`. In the following we will not consider letters when the maximum of their occurrences is less than or equal to 1.
+    
+    We can resume the differences between `s1` and `s2` in the following string: `"1:aaaa/2:bbb"` where `1` in `1:aaaa` stands for string `s1` and `aaaa` because the maximum for `a` is `4`. In the same manner `2:bbb` stands for string `s2` and `bbb` because the maximum for `b` is `3`.
+    
+    The task is to produce a string in which each lowercase letters of `s1` or `s2` appears as many times as its maximum if this maximum is strictly greater than `1`; these letters will be prefixed by the number of the string where they appear with their maximum value and `:`. If the maximum is in `s1` as well as in `s2` the prefix is `=:`.
+    
+    In the result, substrings (a substring is for example `2:nnnnn` or `1:hhh`; it contains the prefix) will be in decreasing order of their length and when they have the same length sorted in ascending lexicographic order (letters and digits - more precisely sorted by codepoint); the different groups will be separated by `'/'`.
+    
+    Hopefully other examples can make this clearer.
+    ```
+    s1 = "my&friend&Paul has heavy hats! &"
+    s2 = "my friend John has many many friends &"
+    mix(s1, s2) --> "2:nnnnn/1:aaaa/1:hhh/2:mmm/2:yyy/2:dd/2:ff/2:ii/2:rr/=:ee/=:ss"
+    
+    s1 = "mmmmm m nnnnn y&friend&Paul has heavy hats! &"
+    s2 = "my frie n d Joh n has ma n y ma n y frie n ds n&"
+    mix(s1, s2) --> "1:mmmmmm/=:nnnnnn/1:aaaa/1:hhh/2:yyy/2:dd/2:ff/2:ii/2:rr/=:ee/=:ss"
+    
+    s1="Are the kids at home? aaaaa fffff"
+    s2="Yes they are here! aaaaa fffff"
+    mix(s1, s2) --> "=:aaaaaa/2:eeeee/=:fffff/1:tt/2:rr/=:hh"
+    ```
