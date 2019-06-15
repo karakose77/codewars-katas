@@ -58,7 +58,7 @@ Includes my katas(exercises) from **["CodeWars"](https://www.codewars.com/)**. T
     
     Note: For a perfect power, there might be several pairs. For example 81 = 3^4 = 9^2, so (3,4) and (9,2) are valid solutions. However, the tests take care of this, so if a number is a perfect power, return any pair that proves it.
     
-15. **["mk016-tic_tac_toe_solved.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk016-tic_tac_toe_solved.ipynb)**: If we were to set up a Tic-Tac-Toe game, we would want to know whether the board's current state is solved, wouldn't we? Our goal is to create a function that will check that for us!
+16. **["mk016-tic_tac_toe_solved.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk016-tic_tac_toe_solved.ipynb)**: If we were to set up a Tic-Tac-Toe game, we would want to know whether the board's current state is solved, wouldn't we? Our goal is to create a function that will check that for us!
 
     Assume that the board comes in the form of a 3x3 array, where the value is 0 if a spot is empty, 1 if it is an "X", or 2 if it is an "O", like so:
     ```
@@ -75,7 +75,7 @@ Includes my katas(exercises) from **["CodeWars"](https://www.codewars.com/)**. T
     ```
      You may assume that the board passed in is valid in the context of a game of Tic-Tac-Toe.
 
-16. **["mk017-letter_sort.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk017-letter_sort.ipynb)**: Given two strings s1 and s2, we want to visualize how different the two strings are. We will only take into account the lowercase letters (a to z). First let us count the frequency of each lowercase letters in s1 and s2.
+17. **["mk017-letter_sort.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk017-letter_sort.ipynb)**: Given two strings s1 and s2, we want to visualize how different the two strings are. We will only take into account the lowercase letters (a to z). First let us count the frequency of each lowercase letters in s1 and s2.
     ```
     s1 = "A aaaa bb c"
     s2 = "& aaa bbb c d"
@@ -104,3 +104,18 @@ Includes my katas(exercises) from **["CodeWars"](https://www.codewars.com/)**. T
     s2="Yes they are here! aaaaa fffff"
     mix(s1, s2) --> "=:aaaaaa/2:eeeee/=:fffff/1:tt/2:rr/=:hh"
     ```
+18. **["mk018-sum_of_intervals.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk018-sum_of_intervals.ipynb)**: Write a function called `sum_of_intervals` that accepts an array of intervals, and returns the sum of all the interval lengths. Overlapping intervals should only be counted once.
+
+    Intervals are represented by a pair of integers in the form of an array. The first value of the interval will always be less than the second value. Interval example: `[1, 5]` is an interval from 1 to 5. The length of this interval is 4.
+    
+    List containing overlapping intervals:
+    
+    `[[1,4], [7, 10], [3, 5]]`
+    
+    The sum of the lengths of these intervals is 7. Since `[1, 4]` and `[3, 5]` overlap, we can treat the interval as `[1, 5]`, which has a length of 4.
+    
+    Examples:
+    
+    `sum_of_intervals([[1,2], [6, 10], [11, 15]]) => 9`
+    `sum_of_intervals([[1,4], [7, 10], [3, 5]]) => 7`
+    `sum_of_intervals([[1,5], [10, 20], [1, 6], [16, 19], [5, 11]]) => 19`
