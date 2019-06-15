@@ -116,6 +116,6 @@ Includes my katas(exercises) from **["CodeWars"](https://www.codewars.com/)**. T
     
     Examples:
     
-    `sum_of_intervals([[1,2], [6, 10], [11, 15]]) => 9`
-    `sum_of_intervals([[1,4], [7, 10], [3, 5]]) => 7`
-    `sum_of_intervals([[1,5], [10, 20], [1, 6], [16, 19], [5, 11]]) => 19`
+    `sum_of_intervals([[1,2], [6, 10], [11, 15]]) => 9`  
+    `sum_of_intervals([[1,4], [7, 10], [3, 5]]) => 7`  
+    `sum_of_intervals([[1,5], [10, 20], [1, 6], [16, 19], [5, 11]]) => 19`  
