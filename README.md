@@ -125,14 +125,19 @@ Includes my katas(exercises) from **["CodeWars"](https://www.codewars.com/)**. T
     
     When no more transformations are possible, return its sum ("smallest possible sum"). For instance, the successive transformation of the elements of input `X = [6, 9, 21]` is detailed below:
     
-    `X_1 = [6, 9, 12] : X_1[2] = X[2] - X[1] = 21 - 9 = 12`
-    
-    `X_2 = [6, 9, 6]   : X_2[2] = X_1[2] - X_1[0] = 12 - 6 = 6`
-    
-    `X_3 = [6, 3, 6]  : X_3[1] = X_2[1] - X_2[0] = 9 - 6 = 3`
-    
-    `X_4 = [6, 3, 3]  : X_4[2] = X_3[2] - X_3[1] = 6 - 3 = 3`
-    
-    `X_5 = [3, 3, 3]  : X_5[1] = X_4[0] - X_4[1] = 6 - 3 = 3`
+    `X_1 = [6, 9, 12] : X_1[2] = X[2] - X[1] = 21 - 9 = 12`  
+    `X_2 = [6, 9, 6]   : X_2[2] = X_1[2] - X_1[0] = 12 - 6 = 6`  
+    `X_3 = [6, 3, 6]  : X_3[1] = X_2[1] - X_2[0] = 9 - 6 = 3`  
+    `X_4 = [6, 3, 3]  : X_4[2] = X_3[2] - X_3[1] = 6 - 3 = 3`  
+    `X_5 = [3, 3, 3]  : X_5[1] = X_4[0] - X_4[1] = 6 - 3 = 3`  
     
     The returning output is the sum of the final transformation (here 9).
+20. **["mk020-the-millionth_fibonacci.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk020-the-millionth_fibonacci.ipynb)**: In this kata you will have to calculate fib(n) where:
+
+    `fib(0) := 0`   
+    `fib(1) := 1`  
+    `fin(n + 2) := fib(n + 1) + fib(n)`  
+    
+    Write an algorithm that can handle n up to 2000000. Your algorithm must output the exact integer answer, to full precision. Also, it must correctly handle negative numbers as input.
+    
+    HINT: Can you rearrange the equation `fib(n + 2) = fib(n + 1) + fib(n)` to find `fib(n)` if you already know `fib(n + 1)` and `fib(n + 2)`? Use this to reason what value fib has to have for negative values.
