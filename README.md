@@ -141,3 +141,12 @@ Includes my katas(exercises) from **["CodeWars"](https://www.codewars.com/)**. T
     Write an algorithm that can handle n up to 2000000. Your algorithm must output the exact integer answer, to full precision. Also, it must correctly handle negative numbers as input.
     
     HINT: Can you rearrange the equation `fib(n + 2) = fib(n + 1) + fib(n)` to find `fib(n)` if you already know `fib(n + 1)` and `fib(n + 2)`? Use this to reason what value fib has to have for negative values.
+ 21. **["mk021-squirrel_and_tree.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk021-squirrel_and_tree.ipynb)**: Since the weather was good, some students decided to go for a walk in the park after the first lectures of the new academic year. There they saw a squirrel, which climbed a tree in a spiral at a constant angle to the ground. They calculated that in one loop the squirrel climbes `h` meters (vertical height), the height of the tree is equal to `H`, and the length of its circumference equals `S`. 
+ 
+      These calculations were exhausting, so now the students
+      need your help to figure out how many meters the path 
+      length of squirrel climbed when it reached the tree top. 
+      The result should be rounded to 4 decimal places. Code 
+      should be less than 52 characters.Example For h = 4, H = 
+      16, S = 3, the output should be 20. For h = 8, H = 9, S = 
+      37, the output should be 42.5869.
