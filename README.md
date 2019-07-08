@@ -165,3 +165,9 @@ Includes my katas(exercises) from **["CodeWars"](https://www.codewars.com/)**. T
     Let's make it so Bob never misses another interesting number. We've hacked into his car's computer, and we have a box hooked up that reads mileage numbers. We've got a box glued to his dash that lights up yellow or green depending on whether it receives a 1 or a 2 (respectively).
     
     It's up to you, intrepid warrior, to glue the parts together. Write the function that parses the mileage number input, and returns a 2 if the number is "interesting" (see below), a 1 if an interesting number occurs within the next two miles, or a 0 if the number is not interesting.
+    
+23. **[mk023-differentiate_a_polynomial.ipynb"](https://github.com/karakose77/codewars-katas/blob/master/mk023-differentiate_a_polynomial.ipynb)**: Create a function that differentiates a polynomial for a given value of x. 
+    * Your function will receive 2 arguments: A polynomial as a string, and a point to evaluate the equation as an integer.
+    * There will be a coefficient near each x, unless the coefficient equals 1 or -1.
+    * There will be an exponent near each x, unless the exponent equals 0 or 1.
+    * All exponents will be greater or equal to zero.
